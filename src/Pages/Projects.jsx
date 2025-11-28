@@ -19,7 +19,7 @@ const Projects = () => {
       description: "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in front-end development.",
       year: "2022",
       role: "Front-end Developer",
-      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764345900/5ce14dc2-d5d2-4b40-b6de-e3aa455854b9.png",
+      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764346263/f0b78116-9f7b-4d41-9784-9fdd315048c2.png",
       liveLink: "#",
       githubLink: "#"
     },

@@ -1,6 +1,11 @@
 
 import React from "react";
-import { Linkedin, Github, Circle } from "lucide-react";
+import { Circle } from "lucide-react";
+import { FaLinkedinIn } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
+import { BsArrowUpRight } from "react-icons/bs";
+
+
 
 const Hero = () => {
   return (
@@ -21,16 +26,17 @@ const Hero = () => {
             {/* Button */}
             <button className="bg-[#D3E97A] text-black rounded-full px-5 py-3 lg:px-6 lg:py-3 flex items-center gap-2 manrope font-semibold text-sm lg:text-base hover:bg-[#c1d865] transition-colors">
               CONTACT ME
-              <Circle className="h-2 w-2 fill-black" />
+              <Circle className="h-2 w-2 fill-black hidden lg:block" />
+              <BsArrowUpRight className="h-4 w-4 lg:hidden bg-black text-white rounded-full p-1 h-6 w-6" />
             </button>
 
             {/* LinkedIn icon */}
             <a 
               href="#" 
-              className="bg-transparent border-0 p-0 hover:opacity-80 transition-opacity"
+              className="bg-transparent bg-white/20 p-2 rounded-full border border-0  hover:opacity-80 transition-opacity"
               aria-label="LinkedIn"
             >
-              <Linkedin className="text-white w-5 h-5 lg:w-6 lg:h-6" />
+              <FaLinkedinIn className="w-6 h-6 text-[#D3E97A]" />
             </a>
 
             {/* GitHub icon */}
@@ -38,10 +44,10 @@ const Hero = () => {
               href="https://github.com/Wayles-D"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-transparent border-0 p-0 hover:opacity-80 transition-opacity"
+              className="bg-transparent bg-white/20 p-2 rounded-full border border-0 hover:opacity-80 transition-opacity"
               aria-label="GitHub"
             >
-              <Github className="text-white w-5 h-5 lg:w-6 lg:h-6" />
+              <BsGithub className="text-[#D3E97A] w-6 h-6 lg:w-6 lg:h-6" />
             </a>
           </div>
         </div>
