@@ -1,17 +1,52 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  const handleNavigation = (path, hash) => {
+    setIsOpen(false);
+    
+    if (path) {
+      if (location.pathname !== path) {
+        navigate(path);
+        // If there's a hash, we need to wait for navigation to complete
+        if (hash) {
+          setTimeout(() => {
+            const element = document.getElementById(hash);
+            if (element) element.scrollIntoView({ behavior: "smooth" });
+          }, 100);
+        } else {
+          window.scrollTo(0, 0);
+        }
+      } else {
+        // Already on the page
+        if (hash) {
+          const element = document.getElementById(hash);
+          if (element) element.scrollIntoView({ behavior: "smooth" });
+        } else {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }
+    } else if (hash) {
+      // Just scrolling on current page (like Contact)
+      const element = document.getElementById(hash);
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <>
       <header className="w-full px-4 lg:px-10 items-center mt-4 bg-[#0A0A0A] h-15 text-[#C7C7C7] flex justify-between sticky top-0 z-20">
-        <div>
-          <h1 className="bebas-neue text-2xl">ROBERT GARCIA</h1>
+        <div className="cursor-pointer" onClick={() => handleNavigation("/", null)}>
+          <h1 className="bebas-neue text-2xl text-white">ROBERT GARCIA</h1>
         </div>
 
         {/* Nav Links */}
@@ -22,14 +57,14 @@ const Navbar = () => {
               : "hidden"
           } lg:static lg:bg-transparent lg:w-auto lg:py-0 lg:flex-row lg:items-center`}
         >
-          <li className="lg:hover:text-[#D3E97A]">
-            <a href="#">Work</a>
+          <li className="lg:hover:text-[#D3E97A] cursor-pointer">
+            <button onClick={() => handleNavigation("/", "work")}>Work</button>
           </li>
-          <li className="lg:hover:text-[#D3E97A]">
-            <a href="#">About</a>
+          <li className="lg:hover:text-[#D3E97A] cursor-pointer">
+            <button onClick={() => handleNavigation("/about", null)}>About</button>
           </li>
-          <li className="lg:hover:text-[#D3E97A]">
-            <a href="#">Contact</a>
+          <li className="lg:hover:text-[#D3E97A] cursor-pointer">
+            <button onClick={() => handleNavigation(null, "contact")}>Contact</button>
           </li>
         </ul>
 

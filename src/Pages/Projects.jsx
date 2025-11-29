@@ -47,59 +47,59 @@ const Projects = () => {
 
       {projectsData.map((project) => (
         <section key={project.id} className="grid lg:grid-cols-2 gap-6 lg:gap-10 mx-4 lg:mx-20 mt-16 lg:mt-20">
-          {/* Project Image */}
-          <div className="bg-[#1A1A1A] rounded-2xl overflow-hidden">
-            <img 
-              src={project.image} 
-              alt={project.title} 
-              className="w-full h-full object-cover"
-            />
-          </div>
-
-          {/* Project Details */}
-          <div className="flex flex-col justify-center">
-            <h2 className="manrope text-2xl lg:text-3xl font-bold text-white leading-tight mb-4">
-              {project.title}
-            </h2>
-            <p className="manrope text-[#C7C7C7] text-base lg:text-lg leading-relaxed mb-6">
-              {project.description}
-            </p>
-
-            {/* Project Info */}
-            <div className="mb-6">
-              <p className="manrope font-semibold text-white mb-2">PROJECT INFO</p>
-              <hr className="border-[#484848]" />
-              
-              <div className="flex justify-between py-3 manrope text-[#C7C7C7]">
-                <p>Year</p>
-                <p className="text-white">{project.year}</p>
-              </div>
-              <hr className="border-[#484848]" />
-              
-              <div className="flex justify-between py-3 manrope text-[#C7C7C7]">
-                <p>Role</p>
-                <p className="text-white">{project.role}</p>
-              </div>
-              <hr className="border-[#484848]" />
+            {/* Project Image */}
+            <div className="bg-[#1A1A1A] rounded-2xl overflow-hidden">
+              <img 
+                src={project.image} 
+                alt={project.title} 
+                className="w-full h-full object-cover"
+              />
             </div>
 
-            {/* Links */}
-            <div className="flex gap-6 manrope font-bold text-[#D3E97A] items-center">
-              <a 
-                href={project.liveLink} 
-                className="flex items-center gap-2 hover:text-[#c1d865] transition-colors"
-              >
-                LIVE DEMO <ArrowUpRight className="w-5 h-5" />
-              </a>
-              <a 
-                href={project.githubLink} 
-                className="flex items-center gap-2 hover:text-[#c1d865] transition-colors"
-              >
-                SEE ON GITHUB <Github className="w-5 h-5" />
-              </a>
+            {/* Project Details */}
+            <div className="flex flex-col justify-center">
+              <h2 className="manrope text-2xl lg:text-3xl font-bold text-white leading-tight mb-4">
+                {project.title}
+              </h2>
+              <p className="manrope text-[#C7C7C7] text-base lg:text-lg leading-relaxed mb-6">
+                {project.description}
+              </p>
+
+              {/* Project Info */}
+              <div className="mb-6">
+                <p className="manrope font-semibold text-white mb-2">PROJECT INFO</p>
+                <hr className="border-[#484848]" />
+                
+                <div className="flex justify-between py-3 manrope text-[#C7C7C7]">
+                  <p>Year</p>
+                  <p className="text-white">{project.year}</p>
+                </div>
+                <hr className="border-[#484848]" />
+                
+                <div className="flex justify-between py-3 manrope text-[#C7C7C7]">
+                  <p>Role</p>
+                  <p className="text-white">{project.role}</p>
+                </div>
+                <hr className="border-[#484848]" />
+              </div>
+
+              {/* Links */}
+              <div className="flex gap-6 manrope font-bold text-[#D3E97A] items-center">
+                <a 
+                  href={project.liveLink} 
+                  className="flex items-center gap-2 hover:text-[#c1d865] transition-colors"
+                >
+                  LIVE DEMO <ArrowUpRight className="w-5 h-5" />
+                </a>
+                <a 
+                  href={project.githubLink} 
+                  className="flex items-center gap-2 hover:text-[#c1d865] transition-colors"
+                >
+                  SEE ON GITHUB <Github className="w-5 h-5" />
+                </a>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
       ))}
     </>
   );

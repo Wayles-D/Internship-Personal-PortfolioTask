@@ -65,7 +65,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-black text-white px-4 lg:px-20 py-10 lg:py-20 mt-20">
+    <footer id="contact" className="bg-black text-white px-4 lg:px-20 py-10 lg:py-20 mt-20">
       <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
         {/* Left Column - Contact Info */}
         <div>
@@ -195,7 +195,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-20 text-[#C7C7C7] manrope text-sm">
-        © 2023 Robert Garcia
+        © {new Date().getFullYear()} Robert Garcia
       </div>
     </footer>
   );

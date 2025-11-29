@@ -58,6 +58,8 @@ const About = () => {
          </div>
       </div>
 
+      <hr className="border-[#484848] mt-20 lg:mt-32" />
+
       {/* My Capabilities Section */}
       <div className="grid lg:grid-cols-2 gap-8 mt-20 lg:mt-32">
         <div>
@@ -76,6 +78,8 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      <hr className="border-[#484848] mt-20 lg:mt-32" />
 
       {/* My Experience Section */}
       <div className="grid lg:grid-cols-2 gap-8 mt-20 lg:mt-32 mb-20">
