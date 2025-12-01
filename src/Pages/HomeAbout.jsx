@@ -29,7 +29,7 @@ const HomeAbout = () => {
       <div className="w-full md:hidden">
          <div className="bg-[#D9D9D9] rounded-2xl overflow-hidden w-full h-[400px]">
             <img
-              src="https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764373491/image_25_qdoizc.png"
+              src="https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764576321/603c06ee-bb6c-40ec-9c9d-05b02cfc1231_wemem2.jpg"
               alt="About Me"
               className="w-full h-full object-cover object-top"
             />
