@@ -5,32 +5,32 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "Promotional landing page for our favourite show",
-      description: "Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
-      year: "2023",
-      role: "Front-end Developer",
-      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764345900/5ce14dc2-d5d2-4b40-b6de-e3aa455854b9.png",
-      liveLink: "#",
+      title: "House Hunting Website",
+      description: "BetaHouse is a real estate web app that lets users browse, rent, and buy homes across Lagos with ease. It features smooth property filtering, clear listing cards, and a simple flow that helps people compare prices, locations, and house details without stress. I built it to practice real estate style UI, property data handling, and user friendly navigation.",
+      year: "2025",
+      role: "Full Stack Developer",
+      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1763934756/57f55acb-891e-4e26-a36a-3730926b55c7.png",
+      liveLink: "https://beta-house-iota.vercel.app/",
       githubLink: "#"
     },
     {
       id: 2,
-      title: "Blog site for World News",
-      description: "Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in front-end development.",
-      year: "2022",
-      role: "Front-end Developer",
-      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764346263/f0b78116-9f7b-4d41-9784-9fdd315048c2.png",
-      liveLink: "#",
-      githubLink: "#"
+      title: "Painting Service Website",
+      description: "A responsive service website for a professional painting company. Includes sections for services, materials and a smart quote request system that requires on-site visits for accurate pricing",
+      year: "2025",
+      role: "Full Stack Developer",
+      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1762955185/02319512-109a-4c5c-9158-f2e6a84a9130.png",
+      liveLink: "https://climade-paints.vercel.app/",
+      githubLink: ""
     },
     {
       id: 3,
-      title: "E-commerce product page",
-      description: "Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
-      year: "2022",
+      title: "A Pharmacy Website Landing Page",
+      description: "Built a modern, responsive landing page for a local pharmacy to establish their online presence. The site highlights their services, business details, and contact information in a clean, accessible design.",
+      year: "2025",
       role: "Front-end Developer",
-      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764346309/cf909833-8e80-4a79-8c82-376e1b75eefa.png",
-      liveLink: "#",
+      image: "https://res.cloudinary.com/dmb5ggmvg/image/upload/v1756946051/WhatsApp_Image_2025-09-04_at_01.33.00_3564640e_wexzua.jpg",
+      liveLink: "https://oskajaypharmacy.com",
       githubLink: "#"
     }
   ];

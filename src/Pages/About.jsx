@@ -16,10 +16,10 @@ const About = () => {
         {/* Right Column - Content */}
         <div>
           <h3 className="manrope text-2xl lg:text-3xl text-white font-medium mb-6 leading-tight">
-            I am a front-end developer based in Sydney. Has Mechanical Engineering background.
+            I am a Full Stack developer based in Nigeria. Has Mechanical Engineering background.
           </h3>
           <p className="manrope text-[#C7C7C7] text-base lg:text-lg mb-8 leading-relaxed">
-            I am a front-end developer based in Sydney looking for exciting opportunities. Has Mechanical Engineering background. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I'm exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
+            I am a Full Stack developer based in  Nigeria looking for exciting opportunities. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I'm exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
           </p>
 
           <div className="flex gap-4 items-center">
@@ -51,7 +51,7 @@ const About = () => {
       <div className="w-full">
          <div className="bg-[#D9D9D9] rounded-2xl overflow-hidden w-full h-[400px] lg:h-[600px]">
             <img
-              src="https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764369084/image_mjotwi.png"
+              src="https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764576321/603c06ee-bb6c-40ec-9c9d-05b02cfc1231_wemem2.jpg"
               alt="About Me"
               className="w-full h-full object-cover object-top"
             />
@@ -70,7 +70,7 @@ const About = () => {
             I am always looking to add more skills. Morbi egestas neque eu blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at purus faucibus tristique ut et dolor.
           </p>
           <div className="flex flex-wrap gap-3">
-            {["HTML", "CSS", "JAVASCRIPT", "JQUERY", "ACCESSIBILITY", "FIGMA", "TAILWIND CSS"].map((skill) => (
+            {["HTML", "CSS", "JAVASCRIPT", "REACTJS", "ACCESSIBILITY", "FIGMA", "TAILWIND CSS"].map((skill) => (
               <span key={skill} className="border border-[#484848] text-white px-6 py-3 rounded-full text-sm lg:text-base font-bold uppercase hover:border-[#D3E97A] hover:text-[#D3E97A] transition-colors cursor-default">
                 {skill}
               </span>

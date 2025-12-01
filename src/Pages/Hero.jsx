@@ -17,8 +17,8 @@ const Hero = () => {
             DANIEL TOSOEDO.
           </h1>
           <p className="manrope text-[#C7C7C7] text-base lg:text-lg mt-4 lg:mt-6 leading-relaxed max-w-lg">
-            A Sydney based front-end developer passionate about building
-            accessible and user friendly websites.
+            Passionate about solving real-world problems with clean code and powerful logic. 
+            I see challenges as puzzles — and I build solutions that speak for themselves.
           </p>
 
           {/* Contact-buttons */}
@@ -56,8 +56,8 @@ const Hero = () => {
         <div className="flex justify-center lg:justify-end">
           <div className="bg-[#D9D9D9] rounded-2xl overflow-hidden w-full max-w-md lg:max-w-lg">
             <img 
-              src="https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764346879/93248c50-945a-4ece-8ce1-8642b69fbcb3.png" 
-              alt="Robert Garcia" 
+              src="https://res.cloudinary.com/dmb5ggmvg/image/upload/v1764576321/603c06ee-bb6c-40ec-9c9d-05b02cfc1231_wemem2.jpg" 
+              alt="Daniel Tosoedo" 
               className="w-full h-auto object-cover"
             />
           </div>
