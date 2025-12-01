@@ -14,7 +14,7 @@ const Hero = () => {
         <div>
           <h1 className="bebas-neue text-5xl lg:text-7xl xl:text-8xl text-white leading-tight">
             HI, I AM<br />
-            ROBERT GARCIA.
+            DANIEL TOSOEDO.
           </h1>
           <p className="manrope text-[#C7C7C7] text-base lg:text-lg mt-4 lg:mt-6 leading-relaxed max-w-lg">
             A Sydney based front-end developer passionate about building

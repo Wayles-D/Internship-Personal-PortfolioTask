@@ -73,7 +73,7 @@ const Footer = () => {
           
           <div className="manrope text-[#C7C7C7] text-base lg:text-lg mb-8 space-y-2">
             <p>
-              Say hello at <a href="mailto:robertgarcia@gmail.com" className="text-white underline hover:text-[#D3E97A] transition-colors">robertgarcia@gmail.com</a>
+              Say hello at <a href="mailto:danieltosoedo@gmail.com" className="text-white underline hover:text-[#D3E97A] transition-colors">danieltosoedo@gmail.com</a>
             </p>
             <p>
               For more info, here's my <a href="#" className="text-white underline hover:text-[#D3E97A] transition-colors">resume</a>
@@ -195,7 +195,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-20 text-[#C7C7C7] manrope text-sm">
-        © {new Date().getFullYear()} Robert Garcia
+        © {new Date().getFullYear()} Daniel Tosoedo
       </div>
     </footer>
   );

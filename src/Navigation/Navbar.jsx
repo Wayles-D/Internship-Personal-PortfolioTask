@@ -46,7 +46,7 @@ const Navbar = () => {
     <>
       <header className="w-full px-4 lg:px-10 items-center mt-4 bg-[#0A0A0A] h-15 text-[#C7C7C7] flex justify-between sticky top-0 z-20">
         <div className="cursor-pointer" onClick={() => handleNavigation("/", null)}>
-          <h1 className="bebas-neue text-2xl text-white">ROBERT GARCIA</h1>
+          <h1 className="bebas-neue text-2xl text-white">DANIEL TOSOEDO</h1>
         </div>
 
         {/* Nav Links */}
