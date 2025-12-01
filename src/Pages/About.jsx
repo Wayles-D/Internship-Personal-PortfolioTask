@@ -16,7 +16,7 @@ const About = () => {
         {/* Right Column - Content */}
         <div>
           <h3 className="manrope text-2xl lg:text-3xl text-white font-medium mb-6 leading-tight">
-            I am a Full Stack developer based in Nigeria. Has Mechanical Engineering background.
+            I am a Full Stack developer based in Nigeria.
           </h3>
           <p className="manrope text-[#C7C7C7] text-base lg:text-lg mb-8 leading-relaxed">
             I am a Full Stack developer based in  Nigeria looking for exciting opportunities. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I'm exploring Reactjs, Webflow and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing Valorant. Learning more to improve skill.
